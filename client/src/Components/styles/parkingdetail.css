@@ -1,0 +1,103 @@
+.detail_parking .card {
+  padding: 0px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.detail_parking .card .card-features {
+  color: white;
+  padding: 60px;
+  border-radius: 5px 0 0 5px;
+  background-color: #000;
+  height: 100%;
+}
+
+.detail_parking .card .card-features .card-feature {
+  margin-bottom: 30px;
+  max-width: 250px;
+  padding-right: 30px;
+}
+
+.detail_parking .card .card-features .card-feature span {
+  display: block;
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.detail_parking .card .card-features .card-feature h5 {
+  margin-bottom: 5px;
+}
+
+.detail_parking .card .card-form {
+  flex: 1;
+  padding: 40px;
+}
+
+.detail_parking .card .card-form form {
+  margin: 20px 0;
+}
+
+.detail_parking .card .card-form .form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.detail_parking .card .card-form .form-check {
+  color: #444;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+.detail_parking .card .card-form .form-check input {
+  margin-right: 10px;
+}
+
+.detail_parking .card .card-form input::placeholder {
+  font-size: 14px;
+}
+
+.detail_parking .card .card-form .form-item label {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.detail_parking .card .card-form .form-item input {
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Responsiveness */
+@media (max-width: 900px) {
+  body {
+    padding: 40px 20px;
+  }
+
+  .detail_parking .card {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .detail_parking .card .card-features {
+    padding: 30px;
+  }
+
+  .detail_parking .card .card-form {
+    padding: 60px 10px;
+  }
+}

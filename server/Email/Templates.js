@@ -1,0 +1,7 @@
+exports.welcomeText = (customerName) => {
+  return `<h3> Dear ${customerName}, <br/><br/> Welcome to GoParking! We're excited to have you on board. <br/> <br/>  With GoParking, parking just got easier. You can now reserve your parking spot in advance, ensuring a hassle-free experience. Simply browse, book, and relax. <br/> <br/> If you have any questions, our support team is here to assist you. <br/> <br/> Get ready to simplify your parking with GoParking! <br/> <br/> Best regards, <br> GoParking Teams.</h3>`;
+};
+
+exports.contactMsg = (userName) => {
+  return `Dear ${userName}, <br/> <br/> Thank you for reaching out to us at GoParking! We appreciate your interest and value the opportunity to assist you. <br/> <br/> We have received your message and would like to gather some additional information to better understand your needs. Could you please provide us with more details regarding the type of parking assistance you require? This could include specific parking preferences, any particular concerns, or any other relevant information that would help us serve you better. <br/> <br/> We are here to ensure a smooth and seamless parking experience for you, and your input is invaluable to us. <br/> <br/> Please feel free to provide the requested information, and we will promptly get back to you with the best possible solution. <br/> <br/> Thank you once again for contacting GoParking. We are dedicated to providing you with exceptional service and look forward to assisting you further. <br/> <br/> Best regards, <br/> <br/> GoParking Team.`;
+};
